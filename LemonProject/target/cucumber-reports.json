@@ -1,0 +1,487 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "I go to Space Page and Login with my user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5161000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a Test Engineer I am on Space Advisor page",
+            "match": {
+              "location": "steps.SpaceSteps.navigateToSpaceAdvisorPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 659000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with my user",
+            "match": {
+              "location": "steps.SpaceSteps.userLogin()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-19T21:22:30.885Z",
+        "line": 18,
+        "name": "Make a space reservation",
+        "description": "",
+        "id": "test-space-reservation;make-a-space-reservation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 702000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select the date of departure and return",
+            "match": {
+              "location": "steps.SpaceSteps.selectDates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 412000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select number of 2 and 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                },
+                {
+                  "val": "2",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.SpaceSteps.selectPassangers(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I choose my favorite Tongli",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tongli",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.SpaceSteps.selectPlanet(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 477000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I complete checkout information with Name: Lemon and Email: lemon@lemon.com and Security Number: 123-12-1234 and Phone Number: 932329429",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lemon",
+                  "offset": 43
+                },
+                {
+                  "val": "lemon@lemon.com",
+                  "offset": 60
+                },
+                {
+                  "val": "123-12-1234",
+                  "offset": 97
+                },
+                {
+                  "val": "932329429",
+                  "offset": 127
+                }
+              ],
+              "location": "steps.SpaceSteps.completeCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I accept terms and conditions and pay my reservation",
+            "match": {
+              "location": "steps.SpaceSteps.payReservation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the total price was calculated correctly",
+            "match": {
+              "location": "steps.SpaceSteps.checkTotalPrice()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "I go to Space Page and Login with my user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a Test Engineer I am on Space Advisor page",
+            "match": {
+              "location": "steps.SpaceSteps.navigateToSpaceAdvisorPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 337000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with my user",
+            "match": {
+              "location": "steps.SpaceSteps.userLogin()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-19T21:22:38.877Z",
+        "line": 19,
+        "name": "Make a space reservation",
+        "description": "",
+        "id": "test-space-reservation;make-a-space-reservation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 688000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select the date of departure and return",
+            "match": {
+              "location": "steps.SpaceSteps.selectDates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select number of 3 and 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 19
+                },
+                {
+                  "val": "0",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.SpaceSteps.selectPassangers(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 349000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I choose my favorite Cuozhou",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cuozhou",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.SpaceSteps.selectPlanet(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 441000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I complete checkout information with Name: Lemon and Email: lemon@bitcoin.com and Security Number: 111-22-3333 and Phone Number: 931213141",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lemon",
+                  "offset": 43
+                },
+                {
+                  "val": "lemon@bitcoin.com",
+                  "offset": 60
+                },
+                {
+                  "val": "111-22-3333",
+                  "offset": 99
+                },
+                {
+                  "val": "931213141",
+                  "offset": 129
+                }
+              ],
+              "location": "steps.SpaceSteps.completeCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I accept terms and conditions and pay my reservation",
+            "match": {
+              "location": "steps.SpaceSteps.payReservation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the total price was calculated correctly",
+            "match": {
+              "location": "steps.SpaceSteps.checkTotalPrice()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "I go to Space Page and Login with my user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a Test Engineer I am on Space Advisor page",
+            "match": {
+              "location": "steps.SpaceSteps.navigateToSpaceAdvisorPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 344000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with my user",
+            "match": {
+              "location": "steps.SpaceSteps.userLogin()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-19T21:22:41.164Z",
+        "line": 20,
+        "name": "Make a space reservation",
+        "description": "",
+        "id": "test-space-reservation;make-a-space-reservation;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 680000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select the date of departure and return",
+            "match": {
+              "location": "steps.SpaceSteps.selectDates()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 313000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select number of 1 and 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 19
+                },
+                {
+                  "val": "1",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.SpaceSteps.selectPassangers(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 305000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I choose my favorite Tayabamba",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tayabamba",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.SpaceSteps.selectPlanet(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 434000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I complete checkout information with Name: Lemon and Email: lemon@etherium.com and Security Number: 222-33-4444 and Phone Number: 931291216",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lemon",
+                  "offset": 43
+                },
+                {
+                  "val": "lemon@etherium.com",
+                  "offset": 60
+                },
+                {
+                  "val": "222-33-4444",
+                  "offset": 100
+                },
+                {
+                  "val": "931291216",
+                  "offset": 130
+                }
+              ],
+              "location": "steps.SpaceSteps.completeCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I accept terms and conditions and pay my reservation",
+            "match": {
+              "location": "steps.SpaceSteps.payReservation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the total price was calculated correctly",
+            "match": {
+              "location": "steps.SpaceSteps.checkTotalPrice()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Test space reservation",
+    "description": "",
+    "id": "test-space-reservation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/reservation.feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

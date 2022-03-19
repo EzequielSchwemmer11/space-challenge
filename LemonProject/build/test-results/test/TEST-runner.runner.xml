@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runner.runner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="AMAC02FPGQ8MD6M" time="0.0">
+  <properties/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar 19, 2022 6:22:44 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFORMACI?N: PDF report configuration YAML file not found. Using default settings.
+mar 19, 2022 6:22:45 PM org.apache.pdfbox.pdmodel.font.FileSystemFontProvider loadDiskCache
+ADVERTENCIA: New fonts found, font cache will be re-built
+mar 19, 2022 6:22:45 PM org.apache.pdfbox.pdmodel.font.FileSystemFontProvider <init>
+ADVERTENCIA: Building on-disk font cache, this may take a while
+mar 19, 2022 6:22:47 PM org.apache.pdfbox.pdmodel.font.FileSystemFontProvider <init>
+ADVERTENCIA: Finished building on-disk font cache, found 816 fonts
+?????????????????????????????????????????????????????????????????????????????????????
+? Share your Cucumber Report with your team at https://reports.cucumber.io          ?
+? Activate publishing with one of the following:                                    ?
+?                                                                                   ?
+? src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    ?
+? src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    ?
+? Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    ?
+? JUnit:                                           @CucumberOptions(publish = true) ?
+?                                                                                   ?
+? More information at https://cucumber.io/docs/cucumber/environment-variables/      ?
+?                                                                                   ?
+? Disable this message with one of the following:                                   ?
+?                                                                                   ?
+? src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      ?
+? src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      ?
+?????????????????????????????????????????????????????????????????????????????????????
+]]></system-err>
+</testsuite>
